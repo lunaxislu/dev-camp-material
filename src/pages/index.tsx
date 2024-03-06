@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import GeneralForm from "@/components/form/GeneralForm";
+import ReactHookForm from "@/components/form/ReactHookForm";
 const inter = Inter({ subsets: ["latin"] });
 //  twmerge 를 이해하기 위한 예시 코드
 // function MyGenericInput(props) {
@@ -44,7 +45,8 @@ export default function Home() {
 
   return (
     <main className={` ${inter.className}`}>
-      <GeneralForm />
+      {/* <GeneralForm /> */}
+      <ReactHookForm />
     </main>
   );
 }
